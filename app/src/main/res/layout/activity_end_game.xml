@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/home_background"
+    tools:context=".EndGame">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Game Ended!"
+        android:layout_marginTop="100dp"
+        android:layout_gravity="center_horizontal"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/responseTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="30dp"
+        android:text=""
+        android:textSize="22sp"
+        android:layout_gravity="center_horizontal" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/restart"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="Play Again!"
+        android:layout_gravity="center_horizontal"
+        android:textSize="22sp"
+        android:background="@drawable/button_style" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/exitApp"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_marginTop="10dp"
+        android:text="Exit"
+        android:layout_gravity="center_horizontal"
+        android:textSize="22sp"
+        android:background="@drawable/button_style" />
+
+
+</LinearLayout>

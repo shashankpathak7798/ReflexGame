@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Reflex Game</string>
+    <string name="play">Play</string>
+    <string name="settings">Settings</string>
+    <string name="quit">Quit</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="let_s_play">Let\'s Play</string>
+    <string name="average_time">\"Your Average Response Time is \"</string>
+    <string name="main_menu">Main Menu</string>
+    <string name="_3x3_grid">3X3 Grid</string>
+    <string name="your_reflex_score">\"Your Reflex Score: \"</string>
+</resources>
